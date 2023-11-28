@@ -61,12 +61,10 @@ Each tier comes with different resource allocations, such as CPU, memory, and st
 Keep in mind that the pricing may vary based on factors such as region, resource allocation, and whether the plan is on a Windows or Linux operating system.
 
 **Notes**:
-* Basic (Non-production environment)
-  * Manual Scalling up to 3 instances
-* Standard (Production environments)
+* Basic (non-production environment)
+  * Manual scalling up to 3 instances
+* Standard (production environments)
   * Auto scalling up to 10 instances
-    * Dynamic
-    * Static
     
 How to visually check the App Service current running instance count?
 ![image](https://github.com/codewithelmor/azure-web-app-service/assets/44918452/96f20bc6-fb11-47da-8289-530e03fb1954)
