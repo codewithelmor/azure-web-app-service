@@ -42,6 +42,14 @@ Key aspects of an App Service Plan include:
 
 By choosing the appropriate App Service Plan, you can scale your application vertically or horizontally based on your performance and availability requirements. Azure App Service takes care of the underlying infrastructure, allowing you to focus on building and deploying your applications.
 
+**Notes**:
+* Basic
+  * Manual Scalling up to 3 instances
+* Standard
+  * Auto scalling up to 10 instances
+    * Dynamic
+    * Static
+
 https://azure.microsoft.com/en-us/pricing/details/app-service/windows/
 
 ![Screenshot 2023-11-28 092803](https://github.com/codewithelmor/azure-web-app-service/assets/44918452/f45953be-2c75-4bd5-8f01-1b6de9ff9397)
