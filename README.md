@@ -67,6 +67,9 @@ Keep in mind that the pricing may vary based on factors such as region, resource
   * Auto scalling up to 10 instances
     * Dynamic
     * Static
+    
+How to visually check the App Service current running instance count?
+https://learn-attachment.microsoft.com/api/attachments/148297-azure-instance-count.png?platform=QnA
 
 https://azure.microsoft.com/en-us/pricing/details/app-service/windows/
 
