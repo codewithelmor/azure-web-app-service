@@ -69,7 +69,7 @@ Keep in mind that the pricing may vary based on factors such as region, resource
     * Static
     
 How to visually check the App Service current running instance count?
-https://learn-attachment.microsoft.com/api/attachments/148297-azure-instance-count.png?platform=QnA
+![image](https://github.com/codewithelmor/azure-web-app-service/assets/44918452/96f20bc6-fb11-47da-8289-530e03fb1954)
 
 https://azure.microsoft.com/en-us/pricing/details/app-service/windows/
 
