@@ -66,6 +66,28 @@ To create and manage deployment slots in the Azure portal, you can navigate to y
 
 Deployment slots provide a powerful mechanism for managing and deploying web applications in a flexible and controlled manner, reducing the risk associated with updates and changes to your production environment.
 
+### Azure App Configuration
+
+**`Azure App Configuration`** is a service provided by Microsoft Azure that helps developers **`manage application settings and feature flags in a central location`**. It allows you to store and retrieve configuration settings for your applications in a secure and scalable manner.
+
+Here are some key aspects of Azure App Configuration:
+
+1. **`Centralized Configuration Store`**: Azure App Configuration provides a centralized location to store configuration settings for your applications. This makes it easier to manage and update settings across multiple environments.
+
+2. **`Dynamic Configuration`**: One of the key features is the ability to update configurations dynamically, without requiring a restart of your application. This is particularly useful for scenarios where you want to make changes to your application's behavior without redeploying the entire application.
+
+3. **`Feature Flags`**: Azure App Configuration supports feature flags, also known as feature toggles or feature switches. Feature flags allow you to control the availability of certain features in your application without redeploying it. This is useful for gradual feature rollouts, A/B testing, and other experimentation scenarios.
+
+4. **`Secure Configuration Store`**: Azure App Configuration ensures that your configuration data is stored securely. It supports encryption of sensitive information, and you can control access using Azure Active Directory (Azure AD) authentication and authorization.
+
+5. **`Integration with Azure Services`**: Azure App Configuration can be easily integrated with other Azure services. For example, it can be used in conjunction with Azure Key Vault for managing sensitive configuration settings.
+
+6. **`Versioning and History`**: Azure App Configuration keeps track of configuration changes, allowing you to view the history of changes and roll back to a previous version if needed.
+
+7. **`SDKs and Language Support`**: Azure App Configuration provides SDKs for various programming languages, making it easy to integrate with your applications regardless of the technology stack you are using.
+
+To use Azure App Configuration, you typically create a configuration store in the Azure portal, configure your application to use the store, and then access configuration settings programmatically through the Azure App Configuration SDK.
+
 ## Azure App Service Plan
 
 Azure App Service Plans, on the other hand, **`are the underlying infrastructure that supports your web apps, mobile apps, API apps, or function apps`**. When you create an Azure App Service, you need to choose an App Service Plan, which determines the region, scale, and pricing tier for your application.
