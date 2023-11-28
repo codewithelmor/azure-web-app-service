@@ -26,7 +26,7 @@ Key features of Azure Web App Service include:
 
 By using Azure Web App Service, developers can streamline the deployment and management of web applications, reducing the operational overhead associated with infrastructure management. It is suitable for a wide range of web applications, from small projects to large-scale enterprise applications.
 
-## Azure Service Plan
+## Azure App Service Plan
 
 Azure App Service Plans, on the other hand, **`are the underlying infrastructure that supports your web apps, mobile apps, API apps, or function apps`**. When you create an Azure App Service, you need to choose an App Service Plan, which determines the region, scale, and pricing tier for your application.
 
@@ -41,3 +41,9 @@ Key aspects of an App Service Plan include:
 4. **`Isolation`**: The App Service Plan provides isolation for your applications from other applications running on the same infrastructure.
 
 By choosing the appropriate App Service Plan, you can scale your application vertically or horizontally based on your performance and availability requirements. Azure App Service takes care of the underlying infrastructure, allowing you to focus on building and deploying your applications.
+
+https://azure.microsoft.com/en-us/pricing/details/app-service/windows/
+
+![Screenshot 2023-11-28 092803](https://github.com/codewithelmor/azure-web-app-service/assets/44918452/f45953be-2c75-4bd5-8f01-1b6de9ff9397)
+
+![Screenshot 2023-11-28 092824](https://github.com/codewithelmor/azure-web-app-service/assets/44918452/3950b152-7a0b-42ca-a3d6-f94c8578817b)
