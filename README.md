@@ -26,6 +26,22 @@ Key features of Azure Web App Service include:
 
 By using Azure Web App Service, developers can streamline the deployment and management of web applications, reducing the operational overhead associated with infrastructure management. It is suitable for a wide range of web applications, from small projects to large-scale enterprise applications.
 
+## App Service Features
+
+1. **`Azure App Service Deployment Center`**:
+
+The **`Azure App Service Deployment Center`** is a feature within Azure App Service that provides a centralized place for managing and configuring continuous deployment for your web applications. It supports various source code repositories and build systems.
+
+Some key points about the Deployment Center include:
+
+1. **`Source Integration`**: Deployment Center allows you to connect your web app to source control repositories like Azure Repos, GitHub, Bitbucket, and others.
+
+2. **`Build Providers`**: It supports different build providers, such as Azure Pipelines, Bitbucket Pipelines, and GitHub Actions, to build and package your application.
+
+3. **`Deployment Options`**: After the build process, Deployment Center assists in deploying your application to the Azure App Service. It supports both manual and continuous deployment options.
+
+4. **`Integration with CI/CD`**: While Deployment Center can be used for manual deployments, it often works in conjunction with CI/CD tools to enable automated, continuous deployment processes.
+
 ## Azure App Service Plan
 
 Azure App Service Plans, on the other hand, **`are the underlying infrastructure that supports your web apps, mobile apps, API apps, or function apps`**. When you create an Azure App Service, you need to choose an App Service Plan, which determines the region, scale, and pricing tier for your application.
