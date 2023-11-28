@@ -28,7 +28,7 @@ By using Azure Web App Service, developers can streamline the deployment and man
 
 ## App Service Features
 
-### **`Azure App Service Deployment Center`**:
+### **Azure App Service Deployment Center**
 
 The **`Azure App Service Deployment Center`** is a feature within Azure App Service that provides a **centralized place for managing and configuring continuous deployment for your web applications**. It supports various source code repositories and build systems.
 
