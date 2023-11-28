@@ -30,7 +30,7 @@ By using Azure Web App Service, developers can streamline the deployment and man
 
 ### **Azure App Service Deployment Center**
 
-The **`Azure App Service Deployment Center`** is a feature within Azure App Service that provides a **centralized place for managing and configuring continuous deployment for your web applications**. It supports various source code repositories and build systems.
+The **`Azure App Service Deployment Center`** is a feature within Azure App Service that provides a **`centralized place for managing and configuring continuous deployment for your web applications`**. It supports various source code repositories and build systems.
 
 Some key points about the Deployment Center include:
 
@@ -44,7 +44,7 @@ Some key points about the Deployment Center include:
 
 ### Azure App Service Deployment Slots
 
-**`Azure App Service Deployment Slots`** are a feature provided by Microsoft Azure that allows you to **host different versions of your web app or API in separate slots, or environments, within a single Azure App Service**. Deployment slots enable you to deploy, test, and swap different versions of your application without affecting the production environment. This can be useful for scenarios such as testing new features, rolling out updates, or performing A/B testing.
+**`Azure App Service Deployment Slots`** are a feature provided by Microsoft Azure that allows you to **`host different versions of your web app or API in separate slots, or environments, within a single Azure App Service`**. Deployment slots enable you to deploy, test, and swap different versions of your application without affecting the production environment. This can be useful for scenarios such as testing new features, rolling out updates, or performing A/B testing.
 
 Here are some key concepts related to Azure App Service Deployment Slots:
 
