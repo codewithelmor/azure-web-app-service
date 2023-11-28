@@ -1,5 +1,9 @@
 # Azure Web App Service - Platform as a Service
 
+![Screenshot 2023-11-28 092803](https://github.com/codewithelmor/azure-web-app-service/assets/44918452/530a2b89-1963-449e-875d-3fa2044ca579)
+
+![Screenshot 2023-11-28 092824](https://github.com/codewithelmor/azure-web-app-service/assets/44918452/e9ffaf84-29e4-433d-8d72-7ac029a95fc4)
+
 **`Azure Web App Service`** is a fully managed platform for building, deploying, and scaling web apps. It is a part of Microsoft Azure, a cloud computing platform provided by Microsoft. Azure Web App Service allows developers to focus on their application code while Azure takes care of the infrastructure, making it easier to build and host web applications.
 
 Key features of Azure Web App Service include:
