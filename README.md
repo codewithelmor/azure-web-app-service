@@ -28,9 +28,9 @@ By using Azure Web App Service, developers can streamline the deployment and man
 
 ## App Service Features
 
-1. **`Azure App Service Deployment Center`**:
+### **`Azure App Service Deployment Center`**:
 
-The **`Azure App Service Deployment Center`** is a feature within Azure App Service that provides a centralized place for managing and configuring continuous deployment for your web applications. It supports various source code repositories and build systems.
+The **`Azure App Service Deployment Center`** is a feature within Azure App Service that provides a **centralized place for managing and configuring continuous deployment for your web applications**. It supports various source code repositories and build systems.
 
 Some key points about the Deployment Center include:
 
@@ -41,6 +41,30 @@ Some key points about the Deployment Center include:
 3. **`Deployment Options`**: After the build process, Deployment Center assists in deploying your application to the Azure App Service. It supports both manual and continuous deployment options.
 
 4. **`Integration with CI/CD`**: While Deployment Center can be used for manual deployments, it often works in conjunction with CI/CD tools to enable automated, continuous deployment processes.
+
+### Azure App Service Deployment Slots
+
+**`Azure App Service Deployment Slots`** are a feature provided by Microsoft Azure that allows you to **host different versions of your web app or API in separate slots, or environments, within a single Azure App Service**. Deployment slots enable you to deploy, test, and swap different versions of your application without affecting the production environment. This can be useful for scenarios such as testing new features, rolling out updates, or performing A/B testing.
+
+Here are some key concepts related to Azure App Service Deployment Slots:
+
+1. **`App Service Plan`**: An App Service Plan defines the region and the size (small, medium, large, etc.) of the virtual machines that host your web apps. Deployment slots share the same App Service Plan as the production slot.
+
+2. **`Production Slot`**: This is the main slot where your live application runs. When users access your app, they are interacting with the production slot.
+
+3. **`Deployment Slots`**: Each Azure App Service can have multiple deployment slots, including a production slot and additional slots for staging, testing, or other purposes. These slots are essentially separate instances of your web app.
+
+4. **`Slot Settings`**: Deployment slots can have their own configuration settings, including connection strings, environment variables, and other app settings. This allows you to configure each slot independently.
+
+5. **`Slot Swap`**: The slot swap feature allows you to swap the content of one slot with another without any downtime. This is particularly useful for rolling out updates or promoting a tested version to production.
+
+6. **`Testing and Staging`**: Deployment slots are often used for testing and staging environments. You can deploy a new version of your app to a slot, test it thoroughly, and then swap it with the production slot if everything looks good.
+
+6. **`Traffic Routing`**: You can control the percentage of traffic routed to each slot during a swap. This allows for gradual rollouts and A/B testing.
+
+To create and manage deployment slots in the Azure portal, you can navigate to your App Service, select "Deployment slots" from the menu, and then add or configure slots as needed.
+
+Deployment slots provide a powerful mechanism for managing and deploying web applications in a flexible and controlled manner, reducing the risk associated with updates and changes to your production environment.
 
 ## Azure App Service Plan
 
