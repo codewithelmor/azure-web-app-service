@@ -28,6 +28,22 @@ By using Azure Web App Service, developers can streamline the deployment and man
 
 ## App Service Features
 
+### App Service Always On Setting
+
+In Azure App Service, the **`"Always On"`** feature is a setting that helps ensure that your web app or API is **`always running and responsive`**. By default, this feature is turned off for cost-saving reasons, especially in scenarios where applications don't need to be constantly active. However, for certain types of applications or scenarios, you might want to enable the "Always On" setting.
+
+Here's what you need to know about the "Always On" feature in Azure App Service:
+
+1. **`Purpose`**: The primary purpose of the "Always On" feature is to keep the application warm and responsive. In a standard web hosting environment, if your application is idle for some time, the platform might decide to unload it from memory to conserve resources. When a request comes in, the application might experience a delay as it needs to be loaded back into memory. Enabling "Always On" prevents the application from being unloaded, reducing the startup time for the first request.
+
+2. **`Scenario`**: This feature is particularly useful for applications that rely on background processes, scheduled jobs, or need to be instantly responsive to incoming requests. If your application has periodic tasks or relies on background processing, "Always On" helps ensure that these processes continue to run without interruption.
+
+3. **`Configuration`**: You can enable "Always On" through the Azure Portal or by configuring it in your application's settings. In the Azure Portal, navigate to your App Service, go to "Configuration" under the "Settings" section, and set the "Always On" option to "On."
+
+4. **`Cost Implications`**: Enabling "Always On" may increase the cost of running your app since it keeps the app continuously running, consuming resources even during periods of low or no activity. Therefore, consider your application's requirements and usage patterns before deciding to enable this feature.
+
+5. **`Performance Monitoring`**: While "Always On" helps with responsiveness, it's also essential to monitor your application's performance to ensure that it meets your expectations. Azure Application Insights or other monitoring tools can be valuable for tracking application health and performance.
+
 ### **Azure App Service Deployment Center**
 
 The **`Azure App Service Deployment Center`** is a feature within Azure App Service that provides a **`centralized place for managing and configuring continuous deployment for your web applications`**. It supports various source code repositories and build systems.
