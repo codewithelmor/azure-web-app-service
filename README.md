@@ -42,6 +42,24 @@ Key aspects of an App Service Plan include:
 
 By choosing the appropriate App Service Plan, you can scale your application vertically or horizontally based on your performance and availability requirements. Azure App Service takes care of the underlying infrastructure, allowing you to focus on building and deploying your applications.
 
+Here are some common pricing tiers for Azure App Service Plans:
+
+1. **`Free Tier`**: This tier provides a basic level of service for small applications with minimal traffic. It is suitable for development and testing purposes.
+
+2. **`Shared Tier`**: This tier is a low-cost option suitable for small-scale applications with low traffic. It shares resources with other apps on the same plan.
+
+3. **`Basic Tier`**: This tier offers increased performance and additional features compared to the Free and Shared tiers. It is suitable for small to medium-sized applications.
+
+4. **`Standard Tier`**: This tier is designed for applications that require additional scaling and performance capabilities. It includes more resources and features than the Basic tier.
+
+5. **`Premium Tier`**: The Premium tier is suitable for applications that demand high performance, scalability, and additional features. It provides enhanced capabilities compared to the Standard tier.
+
+6. **`Isolated Tier`**: This tier is designed for mission-critical applications that require high performance, scalability, and advanced networking features. It provides dedicated resources and isolation for increased reliability.
+
+Each tier comes with different resource allocations, such as CPU, memory, and storage, as well as additional features like custom domains, automatic scaling, and deployment slots.
+
+Keep in mind that the pricing may vary based on factors such as region, resource allocation, and whether the plan is on a Windows or Linux operating system.
+
 **Notes**:
 * Basic (Non-production environment)
   * Manual Scalling up to 3 instances
